@@ -27,6 +27,9 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 $(call inherit-product, vendor/banana/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# BananaDroid Official
+BANANA_BUILDTYPE := OFFICIAL
+
 # Device identifier
 PRODUCT_NAME := banana_ginkgo
 PRODUCT_DEVICE := ginkgo
